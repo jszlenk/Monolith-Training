@@ -1,2 +1,2 @@
-# Monolith-Training
+# Monolith Training
 An example of monolithic architecture
