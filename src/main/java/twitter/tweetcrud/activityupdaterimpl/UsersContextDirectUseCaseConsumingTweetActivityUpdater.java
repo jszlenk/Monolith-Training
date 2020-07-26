@@ -19,7 +19,6 @@ public class UsersContextDirectUseCaseConsumingTweetActivityUpdater implements T
     @Override
     public void updateTweetActivityForUser(String userId, Tweet tweet) {
         updateUserProfileUseCase.updateLastActivity(new LastActivity(
-                new twitter.users.domain.Tweet(Instant.now(), "Title: " + tweet.getMsg()),
-                new Tags()));
+                new twitter.users.domain.Tweet(Instant.now(), "Title: " + tweet.getMsg()), new Tags()));
     }
 }

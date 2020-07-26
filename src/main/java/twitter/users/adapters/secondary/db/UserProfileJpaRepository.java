@@ -6,5 +6,4 @@ import twitter.users.domain.UserProfile;
 import java.util.UUID;
 
 public interface UserProfileJpaRepository extends JpaRepository<UserProfile, UUID> {
-
 }

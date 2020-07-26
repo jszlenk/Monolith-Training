@@ -6,7 +6,6 @@ import lombok.Value;
 @Builder
 @Value
 public class UpdateProfileCommand {
-
     String firstName;
     String id;
 }
